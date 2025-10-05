@@ -10,7 +10,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 GNU General Public License for more details.
 
 You should have a received a copy of GNU General Public License
-along with this progrsm.If not, see <https://www.gnu.org/licenses/>.
+along with this program.If not, see <https://www.gnu.org/licenses/>.
 """
 from random import randint
 from secrets import token_bytes
@@ -199,3 +199,4 @@ if debug_mode:
     with open(f"{manifest_path_project}\\Debug_decrypted_manifest(DeleteMe).txt", 'wb') as f:
         f.write(plaintext)
     print("delete file 'Debug_Decrypted_manifest(DeleteMe).txt' later, please. ")
+
